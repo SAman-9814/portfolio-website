@@ -1252,7 +1252,6 @@ button[type="submit"]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .container1 .icon1 .imgBx {
