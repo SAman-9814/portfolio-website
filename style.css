@@ -1232,7 +1232,7 @@ button[type="submit"]:hover {
     margin: 0;
     padding-top: 1rem;
     box-sizing: border-box;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
@@ -1385,7 +1385,7 @@ button[type="submit"]:hover {
     height: 150px;
     border-radius: 10%;
     overflow: hidden;
-    box-shadow: 0 .1rem 5rem var(--highlight-color);
+    box-shadow: 0 .1rem 3rem var(--highlight-color);
 
 }
 
@@ -2012,7 +2012,8 @@ button[type="submit"]:hover {
     }
 
     .team {
-        margin-bottom: -35rem;
+        margin-bottom: -40rem;
+        padding-top: 0rem;
     }
 
     .container1 {
