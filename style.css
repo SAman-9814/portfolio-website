@@ -2063,15 +2063,17 @@ button[type="submit"]:hover {
     }
 
     .about-img img {
-        width: 38vh;
+        /* width: 38vh; */
         /* height: 70vh; */
-        margin-top: 10rem;
+        /* margin-top: 10rem; */
+        display: none;
     }
 
     .about-img .circle-spin {
-        width: 113%;
+        /* width: 113%;
         height: 113%;
-        margin-top: 5rem;
+        margin-top: 5rem; */
+        display: none;
     }
 
     .about-content {
