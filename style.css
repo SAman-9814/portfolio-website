@@ -2063,14 +2063,14 @@ button[type="submit"]:hover {
     }
 
     .about-img img {
-        width: 38vh;
+        width: 40vh;
         /* height: 70vh; */
         margin-top: 10rem;
     }
 
     .about-img .circle-spin {
-        width: 113%;
-        height: 113%;
+        width: 130%;
+        height: 130%;
         margin-top: 5rem;
     }
 
