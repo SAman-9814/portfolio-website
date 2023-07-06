@@ -2102,10 +2102,10 @@ button[type="submit"]:hover {
     .heading {
         background-color: var(--bg-color);
         /* font-size: 5rem;
-        margin-bottom: 0;
+        margin-bottom: 0; */
         width: 100%;
         text-align: center;
-        display: block; */
+        /* display: block; */
         padding: 0rem;
         box-sizing: border-box;
         border-radius: 20px;
