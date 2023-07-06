@@ -197,6 +197,7 @@ span2 {
     50% {
         transform: translateY(-2.4rem);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -325,34 +326,39 @@ span {
     line-height: 1.3;
 } */
 
-.change-text{
+.change-text {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.3;
 }
-.change-text h1{
+
+.change-text h1 {
     display: inline-flex;
     margin: 0;
     vertical-align: top;
 }
-.change-text h1 .word{
+
+.change-text h1 .word {
     position: absolute;
     display: flex;
     opacity: 0;
 
 }
-.change-text h1 .word .letter{
+
+.change-text h1 .word .letter {
     transform-origin: center center 25px;
 }
 
-.change-text h1 .word .letter.out{
+.change-text h1 .word .letter.out {
     transform: rotateX(90deg);
-    transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
 }
-.change-text h1 .word .letter.in{
+
+.change-text h1 .word .letter.in {
     transition: 0.38s ease;
 }
-.change-text h1 .word .letter.behind{
+
+.change-text h1 .word .letter.behind {
     transform: rotateX(-90deg);
 }
 
@@ -2076,6 +2082,22 @@ button[type="submit"]:hover {
 
     .about-content {
         margin-top: 12rem;
+    }
+
+    .heading {
+        background-color: var(--bg-color);
+        font-size: 5rem;
+        margin-bottom: 0;
+        width: 100%;
+        text-align: center;
+        /* display: block; */
+        padding: 0rem;
+        /* box-sizing: border-box; */
+    }
+
+    .container {
+        margin-top: 2rem;
+    
     }
 
     .footer-iconTop a {
