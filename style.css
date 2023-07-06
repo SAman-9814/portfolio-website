@@ -1818,9 +1818,9 @@ button[type="submit"]:hover {
         margin-bottom: -20rem;
     }
 
-    /* .projects-container {
+    .projects-container {
         grid-template-columns: repeat(2, 1fr);
-    } */
+    }
 
     .container1 {
         width: 400px;
