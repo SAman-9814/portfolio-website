@@ -2081,6 +2081,7 @@ button[type="submit"]:hover {
     .footer-iconTop a {
         width: 33px;
         height: 33px;
+        margin-right: -1.8rem;
     }
 
     .footer-iconTop a i {
