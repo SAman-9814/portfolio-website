@@ -717,10 +717,10 @@ span {
 
 .skills-container .skills-box {
     flex: 1 1 30rem;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
-    box-shadow: 0 .1rem .5rem var(--highlight-color);
+    box-shadow: 0 .1rem 1rem var(--highlight-color);
     text-align: center;
     border-top: .6rem solid var(--main-color);
     border-bottom: .6rem solid var(--main-color);
@@ -728,9 +728,15 @@ span {
 }
 
 .skills-container .skills-box:hover {
-    box-shadow: 0 .1rem 2rem var(--highlight-color);
+    box-shadow: 0 .1rem 3rem var(--highlight-color);
     transform: scale(1.02);
 }
+
+.skills-container .skills-box:hover {
+    background: var(--bg-color);
+    transition: .5s;
+}
+
 
 .skills-box i {
     font-size: 7rem;
@@ -752,7 +758,7 @@ span {
     text-align: justify;
 }
 
-
+/* -------------------------------------------- */
 
 .skill .skill-row {
     margin-bottom: 15rem;
@@ -887,10 +893,10 @@ span {
 
 .projects-container .projects-box {
     flex: 1 1 30rem;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
-    box-shadow: 0 .1rem .5rem var(--highlight-color);
+    box-shadow: 0 .1rem 1rem var(--highlight-color);
     text-align: center;
     border-top: .6rem solid var(--main-color);
     border-bottom: .6rem solid var(--main-color);
@@ -898,8 +904,13 @@ span {
 }
 
 .projects-container .projects-box:hover {
-    box-shadow: 0 .1rem 2rem var(--highlight-color);
+    box-shadow: 0 .1rem 3rem var(--highlight-color);
     transform: scale(1.02);
+}
+
+.projects-container .projects-box:hover {
+    background: var(--bg-color);
+    transition: .5s;
 }
 
 .projects-box i {
@@ -1807,9 +1818,9 @@ button[type="submit"]:hover {
         margin-bottom: -20rem;
     }
 
-    .projects-container {
+    /* .projects-container {
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     .container1 {
         width: 400px;
@@ -2063,15 +2074,16 @@ button[type="submit"]:hover {
     }
 
     .about-img img {
-        width: 40vh;
+        width: 35vh;
         /* height: 70vh; */
         margin-top: 10rem;
     }
 
     .about-img .circle-spin {
-        width: 130%;
+        /* width: 130%;
         height: 130%;
-        margin-top: 5rem;
+        margin-top: 5rem; */
+        display: none;
     }
 
     .about-content {
@@ -2087,6 +2099,54 @@ button[type="submit"]:hover {
     .footer-iconTop a i {
         font-size: 22px;
     }
+    .heading {
+        background-color: var(--bg-color);
+        /* font-size: 5rem;
+        margin-bottom: 0;
+        width: 100%;
+        text-align: center;
+        display: block; */
+        padding: 0rem;
+        box-sizing: border-box;
+        border-radius: 20px;
+        box-shadow: 0 .1rem 2rem var(--main-color);
+    }
+
+    .aman {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        min-height: 100vh;
+        /* background: var(--second--bg-color);
+        margin: 0;
+        padding-top: 1rem;
+        box-sizing: border-box; */
+        margin-top: 2.5rem;
+    }
+    .contact-box{
+        margin-top: 2.3rem;
+    }
+
+    .container {
+        margin-top: 3rem;
+    }
+    .education-row1 {
+        margin-top: 2.5rem;
+    }
+    .about h2 {
+        margin-top: .5rem;
+    }
+    .skills h2 {
+        margin-top: .5rem;
+    }
+    .projects h2 {
+        margin-top: .5rem;
+    }
+    .contact h2 {
+        margin-top: .5rem;
+    }
+    
+    
 
 }
 
