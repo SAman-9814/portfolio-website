@@ -631,21 +631,44 @@
 
 @media (max-width: 500px) {
     .slider-image {
-        width: 80vw;
+        width: 90vw;
     }
 
     .about-img img {
+        width: 90%;
+        border-radius: 50%;
+        border: .2rem solid var(--main-color);
+    }
+    
+    .about-img .circle-spin {
+        box-shadow: 0 .1rem 3rem var(--highlight-color);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(0);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border-top: .5rem solid var(--highlight-color);
+        border-bottom: .5rem solid var(--highlight-color);
+        border-left: .5rem solid var(--text-color);
+        border-right: .5rem solid var(--text-color);
+        animation: aboutSpinner 8s linear infinite;
+    
+    }
+
+    /* .about-img img {
         width: 35vh;
-        /* height: 70vh; */
+        height: 70vh;
         margin-top: 10rem;
     }
 
     .about-img .circle-spin {
-        /* width: 130%;
+        width: 130%;
         height: 130%;
-        margin-top: 5rem; */
+        margin-top: 5rem;
         display: none;
-    }
+    } */
 
     .about-content {
         margin-top: 12rem;
@@ -710,9 +733,57 @@
     .contact h2 {
         margin-top: .5rem;
     }
+
+    .projects-container .projects-box{
+        height: 270px;
+    }
+    .skills-container .skills-box {
+        height: 200px;
+    }
     
     
 
+}
+@media (max-width: 476px) {
+    .projects-container .projects-box{
+        height: 280px;
+    }
+}
+@media (max-width: 460px) {
+    .projects-container .projects-box{
+        height: 300px;
+    }
+}
+@media (max-width: 416px) {
+    .projects-container .projects-box{
+        height: 320px;
+    }
+}
+@media (max-width: 400px) {
+    .projects-container .projects-box{
+        height: 330px;
+    }
+}
+@media (max-width: 388px) {
+    .projects-container .projects-box{
+        height: 340px;
+    }
+}
+@media (max-width: 370px) {
+    .projects-container .projects-box{
+        height: 355px;
+    }
+    
+}
+@media (max-width: 426px) {
+    .skills-container .skills-box {
+        height: 220px;
+    }
+}
+@media (max-width: 366px) {
+    .skills-container .skills-box {
+        height: 230px;
+    }
 }
 
 

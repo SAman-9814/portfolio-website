@@ -723,6 +723,10 @@ span {
     flex: 1 1 30rem;
     /* background: var(--bg-color); */
     padding: 3rem 2rem 4rem;
+    /* width: 10%; */
+    height: 340px;
+    box-sizing: border-box;
+    padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem 1rem var(--highlight-color);
     text-align: center;
@@ -899,6 +903,9 @@ span {
     flex: 1 1 30rem;
     /* background: var(--bg-color); */
     padding: 3rem 2rem 4rem;
+    /* width: 29%; */
+    height: 380px;
+    box-sizing: border-box;
     border-radius: 2rem;
     box-shadow: 0 .1rem 1rem var(--highlight-color);
     text-align: center;
@@ -906,6 +913,19 @@ span {
     border-bottom: .6rem solid var(--main-color);
     transition: .5s ease;
 }
+
+/* .projects-container .projects-box {
+    position: r;
+    width: 29%;
+    height: 400px;
+    background: var(--bg-color);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem var(--highlight-color);
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+    transition: 0.5s ease;
+} */
 
 .projects-container .projects-box:hover {
     box-shadow: 0 .1rem 3rem var(--highlight-color);
