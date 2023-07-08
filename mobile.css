@@ -671,6 +671,10 @@
         box-sizing: border-box;
         border-radius: 15px;
         box-shadow: 0 .1rem 2rem var(--main-color);
+        border-top: .3rem solid var(--highlight-color);
+        border-bottom: .3rem solid var(--highlight-color);
+        border-left: .3rem solid var(--highlight-color);
+        border-right: .3rem solid var(--highlight-color);
     }
 
     .aman {
