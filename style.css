@@ -1409,7 +1409,7 @@ button[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
 }
 
 .contentBx .card .imgBx {
