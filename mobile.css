@@ -525,6 +525,17 @@
         height: 18px;
     }
     
+
+    .container1   {
+        /* margin-top: -30rem; */
+        margin-bottom: 25rem;
+    }
+    /* .aman {
+        min-height: 50vh;
+    } */
+    .team {
+        height: 50px; 
+    } 
 }
 
 @media (max-width: 480px) {
@@ -533,11 +544,11 @@
         font-size: 48%;
     }
 
-    .team {
+    /* .team {
         margin-top: 0rem;
-        /* margin-bottom: -10rem;
-        padding-bottom: 0rem; */
-    }
+        margin-bottom: -10rem;
+        padding-bottom: 0rem;
+    } */
 
     .contact {
         margin-top: -18rem;
@@ -716,7 +727,7 @@
         /* display: flex;
         justify-content: center;
         align-items: center; */
-        min-height: 100vh;
+        /* min-height: 100vh; */
         /* background: var(--second--bg-color);
         margin: 0;
         padding-top: 1rem;
