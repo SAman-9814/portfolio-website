@@ -1219,7 +1219,7 @@ button[type="submit"]:hover {
 }
 
 .container img:hover {
-    box-shadow: 0 .1rem 2rem var(--highlight-color);
+    box-shadow: 0 .1rem 3rem var(--highlight-color);
     transform: scale(1.02);
 }
 
