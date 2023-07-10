@@ -494,30 +494,30 @@
         margin-top: 43rem;
     } */
     .container1 {
-        width: 290px;
-        height: 290px;
+        width: 320px;
+        height: 320px;
     }
     .container1 .icon1 {
         width: 50%;
         height: 50%;
-        left: -226.8%;
+        left: -227.5%;
     }
     .container1 .icon1 .imgBx{
-        transform-origin: 160px;
-        margin-top: 18rem;
+        transform-origin: 180px;
+        margin-top: 21rem;
         width: 40px;
         height: 40px;
     }
     .content::after {
-        inset: 40px;
+        inset: 25px;
     }
 
     .content::before {
-        inset: 30px;
+        inset: 40px;
     }
     .contentBx .card .imgBx {
-        width: 125px; 
-        height: 125px;
+        width: 150px; 
+        height: 150px;
         margin-top: -1rem;
     }
     .contentBx .card .textBx .sci li a {
