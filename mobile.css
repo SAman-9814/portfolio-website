@@ -488,7 +488,8 @@
 @media (max-width: 500px) {
     .team {
         margin-top: 0rem;
-        padding-bottom: 0rem;
+        margin-bottom: -19rem;
+        
     }
     /* .container1 .icon1 .imgBx {
         margin-top: 43rem;
@@ -496,16 +497,17 @@
     .aman{
         margin-top: 5rem;
         /* padding-top: -15rem; */
-        margin-bottom: -23rem;
+        /* margin-bottom: -15rem; */
     }
     .container1 {
         width: 320px;
         height: 320px;
-        margin-top: -23rem;
+        margin-top: -18rem;
+        /* margin-bottom: 5rem; */
 
     }
     /* .contact {
-        margin-top: -22rem;
+        margin-top: -20rem;
         padding-bottom: 0rem;
     } */
     .container1 .icon1 {
