@@ -351,34 +351,47 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .team {
+        margin-bottom: -15rem;
+    }
+
     .container1 {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         /* margin-top: 0rem;
         margin-bottom: 0rem; */
     }
 
     .container1 .icon1 {
-        width: 10%;
-        height: 10%;
-        transform-origin: 140px;
+        width: 5%;
+        height: 5%;
+        /* transform-origin: 500px; */
 
     }
 
     .container1 .icon1 .imgBx {
-        width: 7rem;
-        height: 7rem;
-        transform-origin: 220px;
-        left: 440%;
-        margin-top: 40rem;
+        width: 5rem;
+        height: 5rem;
+        transform-origin: 170px;
+        left: 840%;
+        margin-top: 31rem;
     }
 
     .content::after {
-        inset: 60px;
+        inset: 40px;
     }
 
     .content::before {
-        inset: 43px;
+        inset: 30px;
+    }
+    .contentBx .card .imgBx {
+        width: 135px; 
+        height: 135px;
+        margin-top: -1rem;
+    }
+    .contentBx .card .textBx .sci li a {
+        width: 18px;
+        height: 18px;
     }
 
     /* ---------contact------- */
@@ -486,31 +499,31 @@
 }
 
 @media (max-width: 500px) {
-    .team {
+    /* .team {
         margin-top: 0rem;
-        margin-bottom: -19rem;
+        margin-bottom: -rem;
         
-    }
+    } */
     /* .container1 .icon1 .imgBx {
         margin-top: 43rem;
     } */
-    .aman{
+    /* .aman{
         margin-top: 5rem;
-        /* padding-top: -15rem; */
-        /* margin-bottom: -15rem; */
-    }
-    .container1 {
+        padding-top: -15rem;
+        margin-bottom: -15rem;
+    } */
+    /* .container1 {
         width: 320px;
         height: 320px;
-        margin-top: -18rem;
-        /* margin-bottom: 5rem; */
+        margin-top: -28rem;
+        margin-bottom: 5rem;
 
-    }
+    } */
     /* .contact {
         margin-top: -20rem;
         padding-bottom: 0rem;
     } */
-    .container1 .icon1 {
+    /* .container1 .icon1 {
         width: 50%;
         height: 50%;
         left: -227.5%;
@@ -536,13 +549,10 @@
     .contentBx .card .textBx .sci li a {
         width: 18px;
         height: 18px;
-    }
+    } */
     
 
-    .container1   {
-        /* margin-top: -30rem; */
-        /* margin-bottom: 25rem; */
-    }
+    
     /* .aman {
         min-height: 50vh;
     } */
