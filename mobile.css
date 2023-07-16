@@ -348,8 +348,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .team {
+    /* .team {
         margin-bottom: -15rem;
+    } */
+    .contact {
+        margin-top: -20rem;
     }
 
     .container1 {
@@ -510,9 +513,9 @@
     html {
         font-size: 48%;
     }
-    .team {
+    /* .team {
         margin-bottom: -17rem;
-    }
+    } */
     .container1 .icon1 {
         margin-top: 2.5rem;
     }
@@ -587,9 +590,9 @@
     html {
         font-size: 47%;
     }
-    .team {
+    /* .team {
         margin-bottom: -18rem;
-    }
+    } */
     .container1 .icon1 {
         margin-top: 2.8rem;
     }
