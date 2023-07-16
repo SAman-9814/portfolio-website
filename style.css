@@ -1320,6 +1320,7 @@ button[type="submit"]:hover {
     transform: rotate(calc(-360deg/4 * var(--i)));
     transition: 0.5s;
     filter: grayscale(1);
+    cursor: pointer;
 }
 
 .container1 .icon1 .imgBx.active img {
