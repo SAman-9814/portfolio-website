@@ -342,10 +342,7 @@
 
     /* -------team------ */
 
-    /* .team {
-        margin-top: 0rem;
-        padding-bottom: 0rem;
-    } */
+    
 
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
@@ -494,77 +491,30 @@
     .contact-form .form-group input {
         width: 100%;
     }
-
-
+    .aman {
+        margin-top: 3rem;
+    }
+    .container1 {
+        margin-top: -3rem;
+    }
+    .container1 .icon1 {
+        margin-top: 1.8rem;
+    }
+    
 }
 
-@media (max-width: 500px) {
-    /* .team {
-        margin-top: 0rem;
-        margin-bottom: -rem;
-        
-    } */
-    /* .container1 .icon1 .imgBx {
-        margin-top: 43rem;
-    } */
-    /* .aman{
-        margin-top: 5rem;
-        padding-top: -15rem;
-        margin-bottom: -15rem;
-    } */
-    /* .container1 {
-        width: 320px;
-        height: 320px;
-        margin-top: -28rem;
-        margin-bottom: 5rem;
 
-    } */
-    /* .contact {
-        margin-top: -20rem;
-        padding-bottom: 0rem;
-    } */
-    /* .container1 .icon1 {
-        width: 50%;
-        height: 50%;
-        left: -227.5%;
-    }
-    .container1 .icon1 .imgBx{
-        transform-origin: 180px;
-        margin-top: 21rem;
-        width: 40px;
-        height: 40px;
-    }
-    .content::after {
-        inset: 25px;
-    }
-
-    .content::before {
-        inset: 40px;
-    }
-    .contentBx .card .imgBx {
-        width: 150px; 
-        height: 150px;
-        margin-top: -1rem;
-    }
-    .contentBx .card .textBx .sci li a {
-        width: 18px;
-        height: 18px;
-    } */
-    
-
-    
-    /* .aman {
-        min-height: 50vh;
-    } */
-    /* .team {
-        height: 50px; 
-    }  */
-}
 
 @media (max-width: 480px) {
 
     html {
         font-size: 48%;
+    }
+    .team {
+        margin-bottom: -17rem;
+    }
+    .container1 .icon1 {
+        margin-top: 2.5rem;
     }
 
     /* .team {
@@ -636,6 +586,12 @@
 
     html {
         font-size: 47%;
+    }
+    .team {
+        margin-bottom: -18rem;
+    }
+    .container1 .icon1 {
+        margin-top: 2.8rem;
     }
     /* .contact {
         margin-top: -23rem;
@@ -746,17 +702,6 @@
         border-right: .3rem solid var(--highlight-color);
     }
 
-    .aman {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        /* min-height: 100vh; */
-        /* background: var(--second--bg-color);
-        margin: 0;
-        padding-top: 1rem;
-        box-sizing: border-box; */
-        /* margin-top: 2.5rem; */
-    }
     .contact-box-left h3{
         margin-top: -10rem;
         
