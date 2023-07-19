@@ -354,7 +354,7 @@
     } */
 
     .team {
-        min-height: 0vh;
+        min-height: 50vh;
         padding: 0rem 2% .5rem;
         /* align-items: center; */
         /* margin-bottom: -12rem; */
