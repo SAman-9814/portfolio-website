@@ -353,9 +353,12 @@
         margin-top: -20rem;
     } */
 
-    .team {
+    /* .team {
         min-height: 50vh;
         padding: 0rem 2% .5rem;
+    } */
+    .team {
+        margin-bottom: -12rem;
     }
 
     .container1 {
