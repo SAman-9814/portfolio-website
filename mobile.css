@@ -19,13 +19,13 @@
         padding-bottom: 7rem;
     }
 
-    .contact {
+    /* .contact {
         min-height: auto;
-    }
+    } */
 
-    .projects {
+    /* .projects {
         padding-bottom: 7rem;
-    }
+    } */
 
     .footer {
         padding: 2rem 3%;
@@ -173,9 +173,9 @@
         padding-top: 7rem;
     }
 
-    .projects {
+    /* .projects {
         padding-top: 7rem;
-    }
+    } */
 
     .contact-container {
         flex-direction: column;
@@ -351,9 +351,9 @@
     /* .team {
         margin-bottom: -15rem;
     } */
-    .contact {
+    /* .contact {
         margin-top: -10rem;
-    }
+    } */
 
 
     .container1 {
