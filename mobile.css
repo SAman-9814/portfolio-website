@@ -839,7 +839,14 @@
     }
 }
 
-@media (max-width: 396px) {
+@media (max-width: 410px) {
+
+    .home-content h3 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 386px) {
 
     .home-content h3 {
         font-size: 3.8rem;
@@ -856,17 +863,11 @@
 
 }
 
-@media (max-width: 416px) {
 
-    .home-content h3 {
-        font-size: 3.7rem;
-        /* margin-top: 2rem; */
-    }
-}
 @media (max-width: 376px) {
 
     .home-content h3 {
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         /* margin-top: 2rem; */
     }
 
