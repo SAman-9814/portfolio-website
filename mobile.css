@@ -355,7 +355,7 @@
 
     .team {
         min-height: 50vh;
-        padding: 0rem 2% .5rem;
+        padding: 0rem 2% 1rem;
         /* align-items: center; */
         /* margin-bottom: -12rem; */
     }
@@ -766,6 +766,29 @@
 
 
 }
+@media (max-width:580px) {
+    .projects-container .projects-box {
+        height: 300px;
+    }
+    .skills-container .skills-box {
+        height: 220px;
+    }
+}
+
+@media (max-width:540px) {
+    .projects-container .projects-box {
+        height: 320px;
+    }
+}
+
+@media (max-width:500px) {
+    .projects-container .projects-box {
+        height: 280px;
+    }
+    .skills-container .skills-box {
+        height: 195px;
+    }
+}
 
 @media (max-width: 476px) {
     .projects-container .projects-box {
@@ -775,7 +798,7 @@
 
 @media (max-width: 460px) {
     .projects-container .projects-box {
-        height: 300px;
+        height: 290px;
     }
 }
 
@@ -819,7 +842,7 @@
 @media (max-width: 396px) {
 
     .home-content h3 {
-        font-size: 4rem;
+        font-size: 3.8rem;
         /* margin-top: 2rem; */
     }
 
@@ -833,10 +856,17 @@
 
 }
 
+@media (max-width: 416px) {
+
+    .home-content h3 {
+        font-size: 3.7rem;
+        /* margin-top: 2rem; */
+    }
+}
 @media (max-width: 376px) {
 
     .home-content h3 {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
         /* margin-top: 2rem; */
     }
 

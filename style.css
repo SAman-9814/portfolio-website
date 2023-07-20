@@ -108,16 +108,18 @@ section {
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
+    border-bottom: .1rem solid var(--highlight-color);
 }
 
 
 
 .logo {
     position: relative;
-    font-size: 3.8rem;
+    font-size: 3.3rem;
     color: #87CEEB;
     font-weight: 600;
     cursor: default;
+    /* padding: -50rem 8%; */
     margin-right: auto;
     border-radius: 18px;
     box-shadow: 0 .1rem 2rem var(--main-color);
