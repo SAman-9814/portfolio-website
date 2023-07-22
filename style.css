@@ -1091,6 +1091,7 @@ span {
 .contact-form {
     width: 350px;
     padding: 20px;
+    background-color: var(--bg-color);
     border-top: .6rem solid var(--main-color);
     border-bottom: .6rem solid var(--main-color);
     border-radius: 2rem;

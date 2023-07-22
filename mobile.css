@@ -149,6 +149,9 @@
     /* .container1 {
         margin-bottom: -10rem;
     } */
+    .container {
+        margin-top: 2rem;
+    }
 
     .footer {
         margin-top: -2rem;
@@ -660,6 +663,7 @@
 }
 
 @media (max-width: 500px) {
+    
     .slider-image {
         width: 85vw;
     }
@@ -839,10 +843,10 @@
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 450px) {
 
     .home-content h3 {
-        font-size: 4.5rem;
+        font-size: 4.6rem;
     }
 }
 
@@ -867,12 +871,38 @@
 @media (max-width: 376px) {
 
     .home-content h3 {
-        font-size: 4.2rem;
+        font-size: 4rem;
         /* margin-top: 2rem; */
     }
+    .about-img img {
+        width: 125%;
+        border-radius: 50%;
+        /* border: .2rem solid var(--main-color); */
+    }
+
+    .about-img .circle-spin {
+        /* box-shadow: 0 .1rem 3rem var(--highlight-color);
+        position: absolute; */
+        top: 50%;
+        left: 50%;
+        /* transform: translate(-50%, -50%) rotate(0); */
+        width: 135%;
+        height: 135%;
+        border-radius: 50%;
+        /* border-top: .5rem solid var(--highlight-color);
+        border-bottom: .5rem solid var(--highlight-color);
+        border-left: .5rem solid var(--text-color);
+        border-right: .5rem solid var(--text-color);
+        animation: aboutSpinner 8s linear infinite; */
+
+    }
+    .about-content {
+        margin-top: 4rem;
+    }
+   
 
     .home-content h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     /* .about-content h3 {
