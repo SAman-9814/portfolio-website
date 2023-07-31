@@ -1,10 +1,157 @@
-/* BREAKPOINTS */
+/* <---------------------- BREAKPOINTS ----------------------------->*/
+
+/* <-----------------------section----------------------------------> */
+
+section {
+    overflow: hidden;
+}
+
+/* <----------------------- BREAKPOINTS end of section ---------------------------->*/
+
+/* <------------- @media (max-width: 1326px) --------------------------->*/
+
+/* <------------- skills -----------------------> */
+
+@media (max-width: 1326px) {
+
+    .skills .skills-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 1rem;
+    }
+
+    .skills-container .skills-box {
+        flex: none;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        border-top: .4rem solid var(--main-color);
+        border-bottom: .4rem solid var(--main-color);
+    }
+
+    .skills-box i {
+        font-size: 4rem;
+    }
+
+    .skills-box h3 {
+        font-size: 1.7rem;
+    }
+
+    .skills-box p {
+        font-size: 1.2rem;
+    }
+
+    .skills-box a {
+        font-size: 1rem;
+    }
+
+    /* <---------------- projects ----------------------------------->*/
+
+    .projects .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 1rem;
+    }
+
+    .projects-container .projects-box {
+        flex: none;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+        border-top: .4rem solid var(--main-color);
+        border-bottom: .4rem solid var(--main-color);
+    }
+
+    .projects-box i {
+        font-size: 2.1rem;
+    }
+
+    .projects-box h4 {
+        font-size: 1.7rem;
+    }
+
+    .projects-box p {
+        font-size: 1.2rem;
+    }
+
+    /* <--------------------- heading highlight ------------------------------>*/
+
+    /* .heading,
+    .main-text {
+        background-color: var(--bg-color);
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+        box-sizing: border-box;
+        border-radius: 15px;
+        box-shadow: 0 .1rem 2rem var(--main-color);
+        border-top: .3rem solid var(--highlight-color);
+        border-bottom: .3rem solid var(--highlight-color);
+        border-left: .3rem solid var(--highlight-color);
+        border-right: .3rem solid var(--highlight-color);
+    } */
+
+    /* <---------------------- certificates ----------------------------->*/
+
+    .container {
+        margin-top: 2rem;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .container img {
+        position: static;
+        max-width: 100%;
+        max-height: 100%;
+        /* border-radius: 5; */
+        box-shadow: 0 .1rem 1rem var(--highlight-color);
+        /* border-top: none;
+        border-bottom: none; */
+        /* margin-bottom: -2rem; */
+    }
+
+    .top-left,
+    .top-right,
+    .top-middle,
+    .bottom-left,
+    .bottom-right,
+    .bottom-middle {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        padding: 2px;
+
+    }
+}
+
+/* <--------------------------- @media (max-width: 1326px) BREAKPOINTS end------------------------------------------> */
+
+/* <---- html, contact, footer (1200) --------------> */
 
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
+
+    .contact-container {
+        padding-top: 1rem;
+    }
+
+    .footer-text {
+        padding-top: 1rem;
+    }
 }
+
+/* <------------------------- @media (max-width: 1200px) BREAKPOINTS end ----------------> */
+
+/* <------------ header, section, padding (991px) -------------------> */
 
 @media (max-width: 991px) {
     .header {
@@ -15,28 +162,28 @@
         padding: 10rem 3% 2rem;
     }
 
+    .about {
+        padding-top: 7rem;
+    }
+
     .skills {
-        padding-bottom: 7rem;
+        padding-top: 7rem;
     }
 
     .contact {
-        min-height: auto;
+        padding-top: 7rem;
     }
 
     .projects {
-        padding-bottom: 7rem;
-    }
-
-    .footer {
-        padding: 2rem 3%;
+        padding-top: 7rem;
     }
 }
 
-/* -------------------------------------------- */
+/* <----------------@media (max-width: 991px) BREAKPOINTS end----------------------------> */
 
-/* ----------menu, home and about (768px)------- */
+/* <----------menu, home, skills1 and certificates (768px)-------> */
 
-/* -------menu--------- */
+/* <------- menu ---------> */
 
 @media (max-width: 768px) {
     #menu-icon {
@@ -94,7 +241,7 @@
         transition-delay: .25s;
     }
 
-    /* -----home-------- */
+    /* <----------------- home ---------------------------------->*/
 
     .home {
         flex-direction: column-reverse;
@@ -119,78 +266,45 @@
         margin-left: 0rem;
     }
 
-    /* .skills h2 {
-            margin-bottom: 3rem;
-        } */
+    /* <------------------skillss1, education, certificate--------------------------------->*/
 
-    /* .projects h2 {
-            margin-bottom: 3rem;
-        } */
+    .skill-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-    /* .projects-container {
-            grid-template-columns: repeat(2, 1fr);
-        } */
-}
+    .skill-right {
+        margin-top: -3rem;
+    }
 
-/* ---------------------------------------------------- */
+    .certificate2 {
+        margin-bottom: -6rem;
+    }
 
-/* ------certificate, team, container1 and footer  (1326px)--------- */
-
-@media (max-width: 1326px) {
-    /* .certificate2 {
-        margin-bottom: 45rem;
-    } */
-
-    /* .team {
-        padding-bottom: 13rem;
-        padding-top: 0rem;
-    } */
-
-    /* .container1 {
-        margin-bottom: -10rem;
-    } */
-    .container {
+    .education-row1 {
         margin-top: 2rem;
     }
 
-    .footer {
+    .education-column1 {
         margin-top: -2rem;
     }
 }
 
-/* ------------------------------------------- */
+/* <----------------------- @media (max-width: 768px) BREAKPOINTS end -----------------------------------> */
 
-/* -----contact, address and footer (730px)------- */
+/* <----- contact-address, certificate and footer (730px) -------> */
+
+/* <--------------- contact ------------------------------------>*/
 
 @media (max-width: 730px) {
-    .contact {
-        padding-top: 7rem;
-        /* Decrease the padding for a more compact layout */
-    }
-
-    .about {
-        padding-top: 7rem;
-    }
-
-    .skills {
-        padding-top: 7rem;
-    }
-
-    .projects {
-        padding-top: 7rem;
-    }
 
     .contact-container {
         flex-direction: column;
-        /* Change the flex direction to column-reverse */
         justify-content: center;
         align-items: center;
         margin-top: 0rem;
     }
 
-
     .contact-box-left {
-        /* margin-left: 10rem; */
         text-align: center;
     }
 
@@ -203,7 +317,6 @@
 
     }
 
-
     .contact-box-left h3 {
         margin-top: -5rem;
         margin-left: -6rem;
@@ -213,170 +326,101 @@
         margin-top: -5rem;
     }
 
-    /* .contact-box {
-      background-color: var(--second--bg-color);
-      padding: 30px; 
-    } */
-
-    /* .contact-box-left {
-      font-size: 2rem; 
+    .certificate2 {
+        margin-bottom: -7rem;
     }
 
-  
-    .contact-box-left h3 {
-      margin-bottom: 1.5rem; 
+    .footer-text {
+        padding-top: 1.5rem;
     }
-  
-    .contact-box-left-address p {
-      margin: 3px 0; 
-      font-size: 1.5rem; 
-    }
-  
-    .contact-box-left h4 {
-      margin-top: 1.5rem; 
-      margin-bottom: -1.5rem; 
-      margin-left: 40px; 
-      font-size: 1.8rem; 
-    } */
-
-
-    /* -----fotter----- */
-
-    .footer {
-        margin-top: -2rem;
-    }
-
 }
 
-/* --------------------------------------- */
+/* <-------------- @media (max-width: 730px) BREAKPOINTS end -------------------------> */
 
-/* <-----projects, team and skills (600px)-------> */
+/* <-----projects, team, contact, skills and certificate (600px)-------> */
+
+/* <-------------------- projects ------------------------------->*/
+
 @media (max-width: 600px) {
-    /* .projects {
-        padding-top: 3rem;
-        
-    } */
 
     .projects .projects-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* Add grid-template-columns property */
         justify-items: center;
-        /* Center the grid items horizontally */
         gap: 1rem;
-        /* Reduce the gap between project boxes */
     }
 
     .projects-container .projects-box {
         flex: none;
-        /* Remove flexbox properties */
+        height: 100%;
         width: 100%;
-        /* Set width to 100% */
         padding: 2rem;
-        /* Adjust padding for mobile devices */
         border-top: .4rem solid var(--main-color);
-        /* Reduce the thickness of top and bottom borders */
         border-bottom: .4rem solid var(--main-color);
     }
 
     .projects-box i {
         font-size: 2rem;
-        /* Decrease the icon size for mobile devices */
     }
 
     .projects-box h4 {
         font-size: 1.6rem;
-        /* Decrease the heading size for mobile devices */
     }
 
     .projects-box p {
         font-size: 1.1rem;
-        /* Decrease the paragraph font size for mobile devices */
     }
 
-
-    /* -------skills--------- */
-
-    /* .skills {
-        padding-top: 3rem;
-        
-    } */
+    /* <-------------- skills ----------------> */
 
     .skills .skills-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* Add grid-template-columns property */
         justify-items: center;
-        /* Center the grid items horizontally */
         gap: 1rem;
-        /* Reduce the gap between project boxes */
     }
 
     .skills-container .skills-box {
         flex: none;
-        /* Remove flexbox properties */
+        height: 100%;
         width: 100%;
-        /* Set width to 100% */
         padding: 2rem;
-        /* Adjust padding for mobile devices */
         border-top: .4rem solid var(--main-color);
-        /* Reduce the thickness of top and bottom borders */
         border-bottom: .4rem solid var(--main-color);
     }
 
     .skills-box i {
-        font-size: 2rem;
-        /* Decrease the icon size for mobile devices */
+        font-size: 3rem;
     }
 
     .skills-box h3 {
         font-size: 1.6rem;
-        /* Decrease the heading size for mobile devices */
     }
 
     .skills-box p {
         font-size: 1.1rem;
-        /* Decrease the paragraph font size for mobile devices */
     }
 
     .skills-box a {
         font-size: 1rem;
     }
 
-    /* -------team------ */
-
-
-
-    .projects-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-
-    /* .contact {
-        margin-top: -20rem;
-    } */
+    /* <--------------- team ------------------> */
 
     .team {
         min-height: 50vh;
-        padding: 0rem 2% 1rem;
-        /* align-items: center; */
-        /* margin-bottom: -12rem; */
+        padding: 2rem 2% 0rem;
+        margin-bottom: -7rem;
     }
-    /* .team {
-        margin-bottom: -12rem;
-    } */
 
     .container1 {
         width: 300px;
         height: 300px;
-        /* margin-top: 0rem;
-        margin-bottom: 0rem; */
     }
 
     .container1 .icon1 {
         width: 5%;
         height: 5%;
-        /* transform-origin: 500px; */
 
     }
 
@@ -407,10 +451,9 @@
         height: 18px;
     }
 
-    /* ---------contact------- */
+    /* <------------- contact ------------->*/
 
     .contact-box-left {
-        /* margin-left: 10rem; */
         text-align: center;
     }
 
@@ -419,66 +462,27 @@
     }
 
     .contact-box-left h4 {
-        margin-left: -1rem;
+        margin-left: -1.5rem;
 
     }
 
     .contact-box-left h3 {
-        margin-top: -5rem;
-        /* margin-left: -25rem; */
-    }
-
-}
-
-/* ----------------------------------------- */
-
-/* --------certificate (1300 and 600 px)---------- */
-
-@media (max-width: 1326px) {
-    .certificate2 {
-        margin-top: -20rem;
-        margin-bottom: 0rem;
-    }
-
-    .container {
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-
-    .container img {
-        position: static;
-        max-width: 100%;
-        max-height: auto;
-        border-radius: 5;
-        box-shadow: 0 .1rem 1rem var(--highlight-color);
-        border-top: none;
-        border-bottom: none;
-    }
-
-    .top-left,
-    .top-right,
-    .bottom-left,
-    .bottom-right {
-        position: static;
-        top: auto;
-        left: auto;
-        right: auto;
-        bottom: auto;
-        padding: 2px;
-
+        margin-top: -6rem;
     }
 }
+
+/* <---------- certificate ------------> */
 
 @media (max-width: 600px) {
     .certificate2 {
-        margin-top: -22rem;
+        margin-bottom: 1rem;
     }
 
     .container {
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 3rem;
+        gap: 2rem;
     }
 
     .container img {
@@ -486,184 +490,63 @@
         height: auto;
         border-radius: 5;
         box-shadow: 0 .1rem 1rem var(--highlight-color);
-        border: none;
+        /* border: none; */
     }
 
     .top-left,
     .top-right,
-    .bottom-left,
-    .bottom-right {
+    .top-middle .bottom-left,
+    .bottom-right,
+    .bottom-middle {
         padding: 2px;
     }
 }
 
-/* ---------------------------------------------------- */
+/* <----------------------@media (max-width: 600px) BREAKPOINTS end----------------------------->*/
+
+/* <------------------- @media (max-width: 500px) ---------------------------------> */
+
+/* <------------------ skills1, heading --------------------------------->*/
 
 @media (max-width: 500px) {
+
     html {
         font-size: 50%;
     }
+
+    section.skills1 {
+        padding: 1.6rem 3% 0rem;
+    }
+
+    .heading,
+    .main-text {
+        background-color: var(--bg-color);
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+        box-sizing: border-box;
+        border-radius: 15px;
+        box-shadow: 0 .1rem 2rem var(--main-color);
+        border-top: .3rem solid var(--highlight-color);
+        border-bottom: .3rem solid var(--highlight-color);
+        border-left: .3rem solid var(--highlight-color);
+        border-right: .3rem solid var(--highlight-color);
+    }
+
+    /* <-------------- contact, team, home, about, footer ------------------------------------->*/
 
     .contact-form .form-group input {
         width: 100%;
     }
 
     .aman {
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 
-    /* .container1 {
-        margin-top: -3rem;
-    } */
     .container1 .icon1 {
         margin-top: 1.8rem;
     }
 
-}
-
-
-
-@media (max-width: 480px) {
-
-    html {
-        font-size: 48%;
-    }
-
-    /* .team {
-        margin-bottom: -17rem;
-    } */
-    .container1 .icon1 {
-        margin-top: 2.5rem;
-    }
-
-    /* .team {
-        margin-top: 0rem;
-        margin-bottom: -10rem;
-        padding-bottom: 0rem;
-    } */
-
-    /* .contact {
-        margin-top: -18rem;
-    } */
-
-
-    /* .team {
-        padding-bottom: -20rem;
-    } */
-
-
-    /* .container1 {
-        width: 350px;
-        height: 350px;
-        margin-bottom: 15rem;
-    }
-
-    .container1 .icon1 {
-        width: 10%;
-        height: 10%;
-        transform-origin: 140px;
-
-    }
-
-    .container1 .icon1 .imgBx {
-        width: 6rem;
-        height: 6rem;
-        transform-origin: 195px;
-        left: 440%;
-        margin-top: 40rem;
-    }
-
-    .content::after {
-        inset: 40px;
-    }
-
-    .content::before {
-        inset: 30px;
-    } */
-
-    .contact-box-left-address p {
-        margin-left: 0rem;
-    }
-
-    /* .contact-box-left h4 {
-        margin-left: -1rem;
-
-    } */
-
-
-    .contact-box-left h3 {
-        margin-top: -5rem;
-        margin-left: -15rem;
-    }
-
-
-}
-
-
-
-@media (max-width: 430px) {
-
-    html {
-        font-size: 47%;
-    }
-
-    /* .team {
-        margin-bottom: -18rem;
-    } */
-    .container1 .icon1 {
-        margin-top: 2.8rem;
-    }
-
-    /* .contact {
-        margin-top: -23rem;
-    } */
-
-    /* .team .container1{
-        margin-top: -5rem;
-        
-    } */
-    /* .contentBx .card .imgBx {
-        width: 128px; 
-        height: 128px;
-    }
-
-    .container1 {
-        width: 300px;
-        height: 300px;
-        
-    } */
-
-    /* .container1 .icon1 {
-        width: 10%;
-        height: 10%;
-        transform-origin: 140px;
-
-    }
-
-    .container1 .icon1 .imgBx {
-        width: 5rem;
-        height: 5rem;
-        transform-origin: 170px;
-        left: 410%;
-        margin-top: 35rem;
-    }
-
-    .content::after {
-        inset: 30px;
-    }
-
-    .content::before {
-        inset: 20px;
-    } */
-
-    /* .contentBx.active {
-        width: 30rem;
-        height: 30rem;
-    } */
-}
-
-@media (max-width: 500px) {
-    
     .slider-image {
         width: 85vw;
     }
@@ -675,23 +558,14 @@
     .about-img img {
         width: 130%;
         border-radius: 50%;
-        /* border: .2rem solid var(--main-color); */
     }
 
     .about-img .circle-spin {
-        /* box-shadow: 0 .1rem 3rem var(--highlight-color);
-        position: absolute; */
         top: 50%;
         left: 50%;
-        /* transform: translate(-50%, -50%) rotate(0); */
         width: 140%;
         height: 140%;
         border-radius: 50%;
-        /* border-top: .5rem solid var(--highlight-color);
-        border-bottom: .5rem solid var(--highlight-color);
-        border-left: .5rem solid var(--text-color);
-        border-right: .5rem solid var(--text-color);
-        animation: aboutSpinner 8s linear infinite; */
 
     }
 
@@ -708,212 +582,118 @@
     .footer-iconTop a i {
         font-size: 22px;
     }
+}
 
-    .heading {
-        background-color: var(--bg-color);
-        /* font-size: 5rem;
-        margin-bottom: 0; */
-        width: 100%;
-        text-align: center;
-        /* display: block; */
-        padding: 0rem;
-        box-sizing: border-box;
-        border-radius: 15px;
-        box-shadow: 0 .1rem 2rem var(--main-color);
-        border-top: .3rem solid var(--highlight-color);
-        border-bottom: .3rem solid var(--highlight-color);
-        border-left: .3rem solid var(--highlight-color);
-        border-right: .3rem solid var(--highlight-color);
+/* <--------------------@media (max-width: 500px) BREAKPOINTS end------------------------------->*/
+
+/* <----------------- team, contact (480px) ---------------------------------->*/
+
+@media (max-width: 480px) {
+
+    html {
+        font-size: 48%;
     }
 
-    .contact-box-left h3 {
-        margin-top: -10rem;
-
-    }
-
-    .contact-box {
-        margin-top: 5rem;
-    }
-
-    .container {
-        margin-top: 3rem;
-    }
-
-    .education-row1 {
+    .container1 .icon1 {
         margin-top: 2.5rem;
     }
 
-    .about h2 {
-        margin-top: .5rem;
+    .contact-box-left-address p {
+        margin-left: 0rem;
     }
 
-    .skills h2 {
-        margin-top: .5rem;
-    }
-
-    .projects h2 {
-        margin-top: .5rem;
-    }
-
-    .contact h2 {
-        margin-top: .5rem;
-    }
-
-    .projects-container .projects-box {
-        height: 270px;
-    }
-
-    .skills-container .skills-box {
-        height: 200px;
-    }
-
-
-
-}
-@media (max-width:580px) {
-    .projects-container .projects-box {
-        height: 300px;
-    }
-    .skills-container .skills-box {
-        height: 220px;
-    }
-}
-
-@media (max-width:540px) {
-    .projects-container .projects-box {
-        height: 320px;
-    }
-}
-
-@media (max-width:500px) {
-    .projects-container .projects-box {
-        height: 280px;
-    }
-    .skills-container .skills-box {
-        height: 195px;
-    }
-}
-
-@media (max-width: 476px) {
-    .projects-container .projects-box {
-        height: 280px;
-    }
-}
-
-@media (max-width: 460px) {
-    .projects-container .projects-box {
-        height: 290px;
-    }
-}
-
-@media (max-width: 416px) {
-    .projects-container .projects-box {
-        height: 320px;
-    }
-}
-
-@media (max-width: 400px) {
-    .projects-container .projects-box {
-        height: 330px;
-    }
-}
-
-@media (max-width: 388px) {
-    .projects-container .projects-box {
-        height: 340px;
-    }
-}
-
-@media (max-width: 370px) {
-    .projects-container .projects-box {
-        height: 355px;
+    .contact-box-left h3 {
+        margin-top: -5rem;
+        margin-left: -15rem;
     }
 
 }
 
-@media (max-width: 426px) {
-    .skills-container .skills-box {
-        height: 220px;
+/* <------------------- @media (max-width: 500px) BREAKPOINTS end -------------------------------->*/
+
+/* <--------------------------------------------------->*/
+
+@media (max-width: 430px) {
+
+    html {
+        font-size: 47%;
     }
+
+    .container1 .icon1 {
+        margin-top: 2.8rem;
+    }
+
 }
 
-@media (max-width: 366px) {
-    .skills-container .skills-box {
-        height: 230px;
-    }
-}
+/* <--------------------------------------------------->*/
 
 @media (max-width: 450px) {
 
     .home-content h3 {
-        font-size: 4.6rem;
+        font-size: 4.7rem;
     }
 }
 
-@media (max-width: 386px) {
+/* <--------------------------------------------------->*/
+
+@media (max-width: 400px) {
 
     .home-content h3 {
-        font-size: 4.2rem;
-        /* margin-top: 2rem; */
+        font-size: 4.4rem;
+
     }
 
     .home-content h1 {
         font-size: 3rem;
     }
-
-    /* .about-content h3 {
-        font-size: 2.4rem;
-    } */
-
 }
 
+/* <--------------------------------------------------->*/
+
+@media (max-width: 386px) {
+
+    .home-content h3 {
+        font-size: 4.4rem;
+
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+}
+
+/* <---------------- home, about, footer (376px) ----------------------------------->*/
 
 @media (max-width: 376px) {
 
     .home-content h3 {
-        font-size: 4rem;
-        /* margin-top: 2rem; */
+        font-size: 4.1rem;
     }
+
     .about-img img {
         width: 125%;
         border-radius: 50%;
-        /* border: .2rem solid var(--main-color); */
     }
 
     .about-img .circle-spin {
-        /* box-shadow: 0 .1rem 3rem var(--highlight-color);
-        position: absolute; */
         top: 50%;
         left: 50%;
-        /* transform: translate(-50%, -50%) rotate(0); */
         width: 135%;
         height: 135%;
         border-radius: 50%;
-        /* border-top: .5rem solid var(--highlight-color);
-        border-bottom: .5rem solid var(--highlight-color);
-        border-left: .5rem solid var(--text-color);
-        border-right: .5rem solid var(--text-color);
-        animation: aboutSpinner 8s linear infinite; */
-
     }
+
     .about-content {
         margin-top: 4rem;
     }
-   
 
     .home-content h1 {
         font-size: 2.8rem;
     }
 
-    /* .about-content h3 {
-        font-size: 2.3rem;
-    } */
-
     .footer-text p {
         font-size: 1.7rem;
-        /* text-align: center; */
-
-
     }
-
 }
+
+/* <--------------------- BREAKPOINTS END ------------------------------>*/
