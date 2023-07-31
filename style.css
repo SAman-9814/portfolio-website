@@ -1538,18 +1538,22 @@ section .about-img {
     transform: scale(1);
 }
 
-/* section .certificate2 img {
+/* section .container {
     transition: 1s;
 }
 
-.certificate2 img {
+.certificate2 .container .top {
     transform: translateX(100%);
-    transform: scale(.9);
+    transform: scale(.8);
 }
 
-.certificate2.show-animate img {
+.certificate2.show-animate .top-left {
     transform: translateX(0);
     transform: scale(1);
 } */
 
 /* <-------------------------------------------------------------------------------> */
+
+
+
+
