@@ -1248,37 +1248,37 @@ button[type="submit"]:hover {
 .top-left {
     top: 430px;
     left: 5px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .top-right {
     top: 430px;
     right: 5px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .top-middle {
     top: 430px;
     right: 381px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .bottom-left {
     bottom: -400px;
     left: 5px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .bottom-right {
     bottom: -400px;
     right: 5px;
-    padding: 3px;
+    padding: 2px;
 }
 
 .bottom-middle {
     bottom: -400px;
     right: 381px;
-    padding: 3px;
+    padding: 2px;
 }
 
 /* <------------------------------- team member ------------------------------------------------> */
