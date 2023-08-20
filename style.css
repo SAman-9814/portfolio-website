@@ -239,8 +239,82 @@ span2 {
 }
 
 .home-content h3 {
-    /* position: relative;
-    display: inline-block; */
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: transparent;
+    /* -webkit-text-stroke: .7px var(--pink-color);
+    background-image: linear-gradient(var(--highlight-color), var(--main-color));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -78rem 0; */
+    /* animation: homeBgText 6s linear infinite;
+    animation-delay: 2s; */
+}
+
+#home h3 {
+	/* display: block; */
+	width: fit-content;
+	/* font-size: 4rem; */
+	/* position: relative;
+	color: transparent; */
+    /* -webkit-text-stroke: .7px var(--pink-color); */
+	animation: text_reveal 1s ease forwards;
+	animation-delay: 1s;
+}
+#home h3:nth-child(1) {
+	animation-delay: 1s;
+}
+#home h3:nth-child(2) {
+	animation-delay: 2s;
+}
+#home h3:nth-child(3) {
+	animation: text_reveal_name 1s ease forwards;
+	animation-delay: 3s;
+}
+#home h3 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: var(--highlight-color);
+	animation: text_reveal_box 2s ease;
+	animation-delay: 0.5s;
+}
+#home h3:nth-child(1) span {
+	animation-delay: 0.5s;
+}
+#home h3:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+#home h3:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: var(--text-color);
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: var(--neon-box-shadow);
+		/* font-weight: 500; */
+	}
+}
+
+/* .home-content h3 {
     font-size: 4.2rem;
     font-weight: 700;
     line-height: 1.2;
@@ -252,7 +326,7 @@ span2 {
     background-position: -78rem 0;
     animation: homeBgText 6s linear infinite;
     animation-delay: 2s;
-}
+} */
 
 /* .home-content h3::before {
     content: '';
@@ -269,7 +343,7 @@ span2 {
 
 /* ---keyframes animations------ */
 
-@keyframes homeBgText {
+/* @keyframes homeBgText {
 
     0%,
     10%,
@@ -281,7 +355,7 @@ span2 {
     85% {
         background-position: 0 0;
     }
-}
+} */
 
 /* @keyframes homeCursorText {
 
@@ -305,9 +379,9 @@ span2 {
     }
 } */
 
-.home-content h3:nth-of-type(2) {
+/* .home-content h3:nth-of-type(2) {
     margin-bottom: 1rem;
-}
+} */
 
 span {
     color: var(--main-color);
