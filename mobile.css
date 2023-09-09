@@ -634,6 +634,10 @@ section {
     .home-content h3 {
         font-size: 4.7rem;
     }
+
+    .footer-text p {
+        font-size: 1.7rem;
+    }
 }
 
 /* <--------------------------------------------------->*/
@@ -648,6 +652,7 @@ section {
     .home-content h1 {
         font-size: 3rem;
     }
+    
 }
 
 /* <--------------------------------------------------->*/
@@ -661,6 +666,9 @@ section {
 
     .home-content h1 {
         font-size: 3rem;
+    }
+    .footer-text p {
+        font-size: 1.6rem;
     }
 }
 
