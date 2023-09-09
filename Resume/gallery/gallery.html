@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" style="--img:url(home.png);"></div>
+        <div class="card" style="--img:url(about.jpg);"></div>
+        <div class="card" style="--img:url(a.jpg);"></div>
+        <div class="card" style="--img:url(aa.jpg);"></div>
+    </div>
+    <script>
+        let cards = document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                let x = e.offsetX;
+                let y = e.offsetY;
+                let CardWidth = card.clientWidth;
+                let CardHeight = card.clientHeight;
+                let transX = (x - CardWidth / 2);
+                let transY = (y - CardHeight / 2);
+                card.style.transform = `translateX(${transX}px)translateY(${transY}px)`;
+                card.style.backgroundPositionX = -x/2 + 'px';
+                card.style.backgroundPositionY = -y/2 + 'px';
+            })
+            card.addEventListener('mouseout', (e) => {
+                card.style.transform = ``;
+                card.style.backgroundPositionX = '';
+                card.style.backgroundPositionY = '';
+            })
+        })
+    </script>
+</body>
