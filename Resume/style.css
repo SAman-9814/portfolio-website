@@ -246,9 +246,7 @@ h4{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
     }
-    .mainWebsite{
-        margin-left: 25rem;
-    }
+    
     .bottom{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -261,13 +259,11 @@ h4{
     .right_side {
         margin-top: -2rem;
     }
-    .mainWebsite{
-        margin-left: 10rem;
-    }
+    .mainWebsite,
     .mainWebsite2{
-        margin-left: 10rem;
-
+        margin-left: 40%;
     }
+    
     /* .rightside p{
         display: none;
     } */
@@ -278,8 +274,8 @@ h4{
         font-size: 70%;
     }
     .group .imgbx{
-        width: 80%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 8.1%;
         
     }
     .group p {
@@ -303,25 +299,34 @@ h4{
         width: 95%;
     }
     .bottom .left_side {
-        margin-top: -4rem;
+        margin-top: -5rem;
     }
     /* .hobbies ul li i{
         font-size: 1rem;
     } */
     .hobbies p {
-        font-size: .8rem;
+        font-size: .7rem;
     }
     .hobbies ul {
-        margin-top: 1rem;
+        margin-top: 2rem;
+        margin-left: -3%;
     }
+    /* .hobbies ul li {
+        font-size: .5rem;
+    } */
+
     /* .mainWebsite {
         margin-left: 35%;
     } */ 
+    .mainWebsite,
+    .mainWebsite2{
+        margin-left: 38.5%;
+    }
 }
 
 @media (max-width: 500px) {
     html {
-        font-size: 60%;
+        font-size: 65%;
     }
     /* .container {
         margin: 20px;
@@ -337,6 +342,10 @@ h4{
     .hobbies ul li{
         width: calc(100% / 2);
         padding: 5px 0;
+    }
+    .mainWebsite,
+    .mainWebsite2{
+        margin-left: 35%;
     }
 }
 
