@@ -575,14 +575,18 @@ section {
         margin-top: 5rem;
     }
 
-    .footer-iconTop a {
-        width: 33px;
-        height: 33px;
-        margin-right: -1.8rem;
+    #progress-value {
+        width: 30px;
+        height: 30px;
+        /* margin-right: -1.8rem; */
     }
 
-    .footer-iconTop a i {
-        font-size: 22px;
+    #progress {
+        width: 38px;
+        height: 38px;
+    }
+    #progress-value i{
+        font-size: 30px;
     }
 }
 
@@ -652,7 +656,7 @@ section {
     .home-content h1 {
         font-size: 3rem;
     }
-    
+
 }
 
 /* <--------------------------------------------------->*/
@@ -667,6 +671,7 @@ section {
     .home-content h1 {
         font-size: 3rem;
     }
+
     .footer-text p {
         font-size: 1.6rem;
     }

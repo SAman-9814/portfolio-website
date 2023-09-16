@@ -1259,13 +1259,58 @@ button[type="submit"]:hover {
     text-align: center;
 }
 
-.footer-iconTop {
+#progress {
+    position: fixed;
+    background: var(--pink-color);
+    z-index: 1000;
+    bottom: 15px;
+    right: 6px;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #1d002c;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93,0.25)0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px,
+    rgba(10,37,64,0.35)0px -2px 6px 0px inset;
+}
+
+#progress-value {
+    display: grid;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    background: var(--main-color);
+    border-radius: 50%;
+    color: var(--text-color);
+    place-items: center;
+    font-size: 25px;
+}
+
+/* .footer-iconTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
 
-.footer-iconTop a {
+    position: fixed;
+    background: var(--pink-color);
+    z-index: 1000;
+    bottom: 20px;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #1d002c;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93,0.25)0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px,
+    rgba(10,37,64,0.35)0px -2px 6px 0px inset;
+} */
+
+/* .footer-iconTop a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1280,7 +1325,26 @@ button[type="submit"]:hover {
 
 .footer-iconTop a i {
     font-size: 24px;
-}
+} */
+
+/* #progress {
+    position: fixed;
+    background: #194eb9;
+    z-index: 1000;
+    bottom: 60px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #1d002c;
+    cursor: pointer;
+    box-shadow: rgba(50,50,93,0.25)0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px,
+    rgba(10,37,64,0.35)0px -2px 6px 0px inset;
+
+} */
 
 /* <------------------------------ certificate -------------------------------------------------> */
 

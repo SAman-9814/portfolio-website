@@ -164,8 +164,32 @@ ScrollReveal().reveal('.slider-image, .about-content, .skills-container, .projec
 ScrollReveal().reveal('.home-content h3, .education-row1, .contact-box-left, .skill-left, .social-media', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .education-column1, .skill-right, .contact-form', { origin: 'right' });
 
-/* <-------------------------------------------------------------------------------> */
+/* <---------------------------------side progress bar----------------------------------------------> */
 
+// let calcScrollValue = ()=>{
+//     let scrollProgress = document.getElementById("progress");
+//     let pos = document.documentElement.scrollTop;
+
+//     let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//     let scrollValue = Math.round((pos * 100)/calcHeight);
+    
+//     if(pos > 100){
+//         scrollProgress.style.display = "grid";
+//     }else{
+//         scrollProgress.style.display = "none";
+//     }
+
+//     scrollProgress.addEventListener("click",()=>{
+//         document.documentElement.scrollTop = 0;
+//     });
+
+//     scrollProgress.style.background = `conic-gradient(#fff ${scrollValue}%,#c471ed ${scrollValue}%)`;
+// };
+
+// window.onscroll = calcScrollValue;
+// window.onload = calcScrollValue;
+
+/* <-------------------------------------------------------------------------------> */
 
 
 
