@@ -11,30 +11,15 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card" style="--img:url(home.png);"></div>
-        <div class="card" style="--img:url(about.jpg);"></div>
-        <div class="card" style="--img:url(a.jpg);"></div>
-        <div class="card" style="--img:url(aa.jpg);"></div>
-    </div>
-    <script>
-        let cards = document.querySelectorAll('.card').forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                let x = e.offsetX;
-                let y = e.offsetY;
-                let CardWidth = card.clientWidth;
-                let CardHeight = card.clientHeight;
-                let transX = (x - CardWidth / 2);
-                let transY = (y - CardHeight / 2);
-                card.style.transform = `translateX(${transX}px)translateY(${transY}px)`;
-                card.style.backgroundPositionX = -x/2 + 'px';
-                card.style.backgroundPositionY = -y/2 + 'px';
-            })
-            card.addEventListener('mouseout', (e) => {
-                card.style.transform = ``;
-                card.style.backgroundPositionX = '';
-                card.style.backgroundPositionY = '';
-            })
-        })
+    <h1>Gallery</h1>
+    <img src="" id="image">
+
+    <script type="text/javascript">
+        let image = document.getElementById('image');
+        let images = ['images/image1.jpg', 'images/image5.jpg', 'images/image2.jpg', 'images/image10.jpg', 'images/image9.jpg', 'images/image8.jpg', 'images/image11.jpg', 'images/image12.jpg', 'images/image7.jpg', 'images/image15.jpg', 'images/image4.jpg', 'images/image13.jpg', 'images/image14.jpg', 'images/image3.jpg', 'images/image16.jpg', 'images/image17.jpg', 'images/image20.jpg', 'images/image6.jpg', 'images/image19.jpg', 'images/image18.jpg', 'images/image21.jpg', 'images/image22.jpg']
+        setInterval(function () {
+            let random = Math.floor(Math.random() * 22);
+            image.src = images[random];
+        }, 1200);
     </script>
 </body>

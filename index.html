@@ -678,27 +678,27 @@
             <!-- contact form -->
 
             <div class="contact-form">
-                <form>
+                <form action="https://formspree.io/f/mnqkzzjq" method="POST">
                     <h2>Contact Me</h2>
                     <div class="form-group">
                         <label for="name"><span>Full Name : <i class='bx bxs-contact'></i></span></label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label for="name"><span>Email Address : <i class='bx bx-envelope'></i></span></label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" required autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label for="name"><span>Mobile Number : <i class='bx bx-phone'></i></span></label>
-                        <input type="text" id="number" name="number" required>
+                        <input type="number" id="number" name="number" required autocomplete="off">
                     </div>
                     <div class="form-group">
-                        <label for="email"><span>Email Subject : <i class='bx bxs-envelope'></i></span></label>
-                        <input type="text" id="email" name="email" required>
+                        <label for="subject"><span>Subject : <i class='bx bxs-envelope'></i></span></label>
+                        <input type="text" id="subject" name="subject" required autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label for="message"><span>Your Message : <i class='bx bxs-chat'></i></span></label>
-                        <textarea id="message" name="message" required></textarea>
+                        <textarea id="message" name="message" required autocomplete="off" min="5"></textarea>
                     </div>
                     <button type="submit"><span>Submit</span></button>
                 </form>
