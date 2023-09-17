@@ -1,17 +1,22 @@
 *
 {
     margin: 0rem;
-    padding: 0.2rem;
+    padding: 0rem;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-section {
-    overflow: hidden;
-}
-
 body{
     background: #0f222f;
+}
+
+/* section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}*/
+
+section {
+    overflow: hidden;
 }
 
 h1{
@@ -33,6 +38,11 @@ img{
 
 
 @media (max-width: 900px) {
+
+    section {
+        overflow: hidden;
+    }
+
     img{
         height: 490px;
         width: 500px;
@@ -40,17 +50,23 @@ img{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 525px) {
+
+    section {
+        overflow: hidden;
+    }
+
     img{
-        height: 580px;
-        width: 500px;
+        height: 550px;
+        width: 370px;
         margin-top: 1rem;
     }
     h1{
-        margin-left: 8rem;
+        margin-left: 1rem;
+        padding-top: 1rem;
     }
     h2{
-        margin-left: 8rem;
+        margin-left: 1rem;
         margin-top: .5rem;
     }
 }
