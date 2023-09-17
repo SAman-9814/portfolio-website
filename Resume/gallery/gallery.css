@@ -57,17 +57,17 @@ img{
     }
 
     img{
-        height: 550px;
+        height: 500px;
         width: 370px;
         margin-top: 1rem;
     }
     h1{
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         padding-top: 1rem;
     }
     h2{
-        margin-left: 1rem;
-        margin-top: .5rem;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
     }
 }
 
