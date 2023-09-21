@@ -1,0 +1,154 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second--bg-color: #323946;
+    --text-color: #fff;
+    --white-color: #fdfdfd;
+    --main-color: #0ef;
+    --highlight-color: #87CEEB;
+    --neon-box-shadow: 0 0 .5rem #87CEEB;
+    --pink-color: #c471ed;
+
+
+}
+
+body{
+    background: #0f222f;
+}
+
+/* section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}*/
+
+section {
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: .5rem;
+}
+
+/* .main a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .6rem;
+    font-size: 1.2rem;
+}
+
+.main .btn {
+    display: inline-block;
+}
+
+
+
+.btn {
+    margin-top: 1rem;
+    /* margin-left: 40rem; */
+    /* display: flex; */
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* display: inline-block; */
+    padding: .5rem 1rem;
+    background: var(--main-color);
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem var(--highlight-color);
+    font-size: 1rem;
+    color: var(--second--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 .1rem 2rem var(--highlight-color);
+    transform: scale(1.1);
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.main {
+    /* margin-left: center; */
+    font-size: 1.2rem;
+}
+
+img{
+    display: block;
+    height: 570px;
+    width: 1000px;
+    margin: 0 auto;
+    transition: 0.3s;
+    margin-top: .5rem;
+}
+
+
+@media (max-width: 900px) {
+
+    section {
+        overflow: hidden;
+    }
+
+    img{
+        height: 490px;
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 525px) {
+
+    section {
+        overflow: hidden;
+    }
+
+    img{
+        height: 500px;
+        width: 370px;
+        margin-top: 1rem;
+    }
+    h1{
+        margin-left: 0.5rem;
+        padding-top: 3rem;
+    }
+    h2{
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+  
+  

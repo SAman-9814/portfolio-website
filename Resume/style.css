@@ -28,6 +28,14 @@ section{
     font-weight: 600;
 }
 
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: .8rem;
+    font-size: 1.2rem; */
+}
+
 .mainWebsite2{
     /* color: #fff;
     background: #231fbf; */
