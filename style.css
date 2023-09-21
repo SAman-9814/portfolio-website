@@ -238,7 +238,7 @@ span2 {
 }
 
 .home-content h3 {
-    font-size: 4.2rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1.2;
     color: transparent;
@@ -393,7 +393,7 @@ span {
 } */
 
 .change-text {
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -417,7 +417,7 @@ span {
 
 .change-text h1 .word .letter.out {
     transform: rotateX(90deg);
-    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+    transition: 0.38s cubic-bezier(0.6, 0, 0.7, 0.2);
 }
 
 .change-text h1 .word .letter.in {
