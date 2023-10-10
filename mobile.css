@@ -163,7 +163,7 @@ section {
     }
 
     .about {
-        padding-top: 7rem;
+        padding-top: 3rem;
     }
 
     .skills {
@@ -262,7 +262,7 @@ section {
 
     .slider-image {
         width: 45vw;
-        margin-top: 0rem;
+        margin-top: -5rem;
         margin-left: 0rem;
     }
 
