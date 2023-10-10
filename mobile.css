@@ -162,8 +162,12 @@ section {
         padding: 10rem 3% 2rem;
     }
 
+    .home {
+        margin-bottom: 0rem;
+    }
+
     .about {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .skills {
