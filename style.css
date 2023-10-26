@@ -647,7 +647,7 @@ span {
 }
 
 .about-content p1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
 }
 
 .about-content p {
@@ -1240,7 +1240,7 @@ button[type="submit"]:hover {
 /* <------------------------------- footer ------------------------------------------------> */
 
 .footer {
-    margin-top: -5rem;
+    margin-top: -2.5rem;
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
