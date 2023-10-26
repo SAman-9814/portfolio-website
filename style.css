@@ -1240,7 +1240,7 @@ button[type="submit"]:hover {
 /* <------------------------------- footer ------------------------------------------------> */
 
 .footer {
-    margin-top: -2.4rem;
+    margin-top: -5rem;
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
